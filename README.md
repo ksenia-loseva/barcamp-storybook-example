@@ -1,4 +1,4 @@
-#Storybook example
+# Storybook example
 
 To try out Storybook you can
 
