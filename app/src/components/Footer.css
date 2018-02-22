@@ -1,0 +1,8 @@
+.footer__wrapper {
+  color: black;
+  font-size: 0.4em;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}

@@ -1,0 +1,6 @@
+.todo-list__item {
+  background-color: lightgrey;
+  list-style: none;
+  margin-top: 1em;
+  justify-self: stretch;
+}

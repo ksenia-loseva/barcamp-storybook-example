@@ -1,0 +1,8 @@
+.todo-list {
+    margin: 0;
+    padding: 0;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}

@@ -1,0 +1,17 @@
+.todo-form__wrapper {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  align-self: center;
+}
+
+.todo-form__wrapper-flex {
+  display: flex;
+}
+
+.todo-form__input {
+  font-size: 1em;
+  line-height: 2;
+  flex: 1;
+}

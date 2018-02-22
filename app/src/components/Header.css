@@ -1,0 +1,17 @@
+.header {
+  color: white;
+  margin: 0;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  align-self: center;
+}
+
+.green {
+  background-color: teal;
+}
+
+.blue {
+  background-color: midnightblue;
+}
