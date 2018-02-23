@@ -1,6 +1,6 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 import { color, withKnobs } from "@storybook/addon-knobs/react";
 
 storiesOf("Header", module)

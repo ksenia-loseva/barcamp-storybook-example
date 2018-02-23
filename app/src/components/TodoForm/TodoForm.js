@@ -1,6 +1,6 @@
 import React from "react";
 import "./TodoForm.css";
-import AddButton from "./AddButton";
+import AddButton from "../AddButton/AddButton";
 
 export default function TodoForm({ addTodo, todoValue, onChange }) {
   // Input tracker

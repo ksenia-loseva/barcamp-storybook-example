@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Header from "./components/Header";
-import TodoForm from "./components/TodoForm";
-import TodoList from "./components/TodoList";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import TodoForm from "./components/TodoForm/TodoForm";
+import TodoList from "./components/TodoList/TodoList";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 class App extends Component {

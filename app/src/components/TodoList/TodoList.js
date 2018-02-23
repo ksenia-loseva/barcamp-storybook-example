@@ -1,6 +1,6 @@
 import React from "react";
 import "./TodoList.css";
-import Todo from "./Todo";
+import Todo from "../Todo/Todo";
 
 export default function TodoList({ todos, remove }) {
     // Map through the todos

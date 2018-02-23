@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, date } from "@storybook/addon-knobs/react";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 
 storiesOf("Footer", module)
   .addDecorator(withKnobs)

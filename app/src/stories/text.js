@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, text, number } from "@storybook/addon-knobs/react";
-import Text from "../components/Text";
+import Text from "../components/Text/Text";
 
 storiesOf("Text", module)
   .addDecorator(withKnobs)
