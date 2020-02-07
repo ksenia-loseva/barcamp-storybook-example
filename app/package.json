@@ -12,15 +12,26 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "CHROMATIC_APP_CODE=${CHROMATIC_APP_CODE} chromatic test",
+    "snapshot": "export PERCY_TOKEN=${PERCY_TOKEN} && build-storybook -s public && percy-storybook --widths=1280",
+    "happo": "happo",
+    "eyes-storybook": "export APPLITOOLS_API_KEY=${APPLITOOLS_API_KEY} && eyes-storybook"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.3.13",
-    "@storybook/addon-knobs": "^3.3.13",
-    "@storybook/addon-links": "^3.3.13",
-    "@storybook/addons": "^3.3.13",
-    "@storybook/react": "^3.3.13",
-    "babel-core": "^6.26.0",
-    "react-scripts": "^1.1.1"
+    "@applitools/eyes-storybook": "^2.7.21",
+    "@babel/cli": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@percy-io/percy-storybook": "^2.1.0",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-knobs": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "happo-plugin-storybook": "^2.4.0",
+    "happo.io": "^3.20.0",
+    "react-scripts": "^3.0.1",
+    "storybook-chromatic": "^2.0.0"
   }
 }

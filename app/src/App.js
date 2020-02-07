@@ -45,7 +45,7 @@ class App extends Component {
 
     return (
       <div className="app">
-        <Header className="green" count={todos.length} />
+        <Header className="blue" count={todos.length} />
         <TodoForm
           addTodo={this.addTodo}
           todoValue={todoValue}

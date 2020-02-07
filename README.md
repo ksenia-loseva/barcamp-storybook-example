@@ -1,85 +1,42 @@
-# Storybook example
+This is a project example that allows to compare 4 different services for visual testing with Storybook
 
-To try out Storybook you can
+#### Storybook
+launch: `npm run storybook`
 
-## Clone this example Todo App 
+#### Chromatic
 
-And run:
+launch: `npm run chromatic`
 
-```
-cd app
+docs: https://docs.chromaticqa.com
 
-npm install
-```
+don't forget to set up your project in chromatiq first and add your CHROMATIC_APP_CODE in package.json
 
-To start React App: `npm run start`
+#### Percy
 
-To start Storybook: `npm run storybook`
+launch: `npm run snapshot`
 
-This Todo App code is based on: https://scotch.io/tutorials/create-a-simple-to-do-app-with-react
+docs: https://docs.percy.io/docs/storybook
 
-## Add Storybook to
+don't forget to set up your project in percy first and add your PERCY_TOKEN in package.json
 
-### Your existing React App
+#### Happo
 
-Or
+launch: `npm run happo run`
 
-### A new basic React App
+Доступ к отчету: по ссылке, сгенерированной командой.
 
-#### React App
+docs: 
 
-```
-npm install -g create-react-app
-create-react-app app
-```
+https://github.com/happo/happo.io/blob/master/README.md#getting-started
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+https://github.com/happo/happo-plugin-storybook
 
-#### Storybook instructions
+don't forget to set up your project in happo first and add your HAPPO_API_KEY and HAPPO_API_SECRET in .happo.js
 
-See: https://storybook.js.org/basics/introduction/
+#### Applitools
 
-1. Install Storybook
+launch: `npm run eyes-storybook`
 
-```
-npm i --save-dev @storybook/react
-npm i --save react react-dom
-npm i --save-dev babel-core
-npm i -g @storybook/cli
-getstorybook
-npm run storybook
-```
--> http://localhost:9009/
+docs:
 
-2. To enable loading all stories replace .storybook/config.js content with
-
-```
-import { configure } from "@storybook/react";
-
-// automatically import all files ending in *.js
-const req = require.context("../src/stories", true, /.js$/);
-function loadStories() {
-  req.keys().forEach(filename => req(filename));
-}
-
-configure(loadStories, module);
-```
-
-
-## More infos
-
-Knobs:
-npm install @storybook/addon-knobs --save-dev
-https://github.com/storybooks/storybook/tree/master/addons/knobs
-
-Todo App:
-https://scotch.io/tutorials/create-a-simple-to-do-app-with-react
-
-React App:
-https://github.com/facebook/create-react-app/blob/master/README.md#getting-started
-
-Flexbox:
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-Grid:
-https://css-tricks.com/snippets/css/complete-guide-grid/
+don't forget to set up your project in applitools first and add your APPLITOOLS_API_KEY in package.json
