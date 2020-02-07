@@ -23,8 +23,6 @@ don't forget to set up your project in percy first and add your PERCY_TOKEN in p
 
 launch: `npm run happo run`
 
-Доступ к отчету: по ссылке, сгенерированной командой.
-
 docs: 
 
 https://github.com/happo/happo.io/blob/master/README.md#getting-started
@@ -37,6 +35,6 @@ don't forget to set up your project in happo first and add your HAPPO_API_KEY an
 
 launch: `npm run eyes-storybook`
 
-docs:
+docs: https://applitools.com/tutorials/storybook-react.html#how-it-works
 
 don't forget to set up your project in applitools first and add your APPLITOOLS_API_KEY in package.json
