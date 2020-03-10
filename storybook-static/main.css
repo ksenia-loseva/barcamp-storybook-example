@@ -1,0 +1,86 @@
+.header {
+  color: white;
+  margin: 0;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  align-self: center;
+}
+
+.green {
+  background-color: teal;
+}
+
+.blue {
+  background-color: midnightblue;
+}
+
+.todo-form__wrapper {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  align-self: center;
+}
+
+.todo-form__wrapper-flex {
+  display: flex;
+}
+
+.todo-form__input {
+  font-size: 1em;
+  line-height: 2;
+  flex: 1 1;
+}
+
+.add-button {
+  font-size: 1em;
+  line-height: 2;
+}
+
+.todo-list {
+    margin: 0;
+    padding: 0;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.todo-list__item {
+  background-color: lightgrey;
+  list-style: none;
+  margin-top: 1em;
+  justify-self: stretch;
+}
+
+.footer__wrapper {
+  color: red;
+  font-size: 0.4em;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+body {
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 2;
+}
+
+.app {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 15% 15% 40% 15% 15%;
+  grid-template-rows: 1fr 1fr 3fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+.label {
+  color: black;
+  font-size: 1em;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
